@@ -2,10 +2,10 @@
 <html>
 	<head>
 		<meta charset="utf-8"/>
-		<title>use-case</title>
+		<title>Persona</title>
 	</head>
 
 	<main>
-		<h1> Hello use-case</h1>
+		<h1> Hello Persona</h1>
 	</main>
 </html>
