@@ -2,8 +2,9 @@
 <html>
 	<head>
 		<meta charset="utf-8"/>
+        <link type="text/css" href='css/style.css' rel="stylesheet" />
 		<title>milestone</title>
-        <link href="css/style.css" type="text/css" />
+
 	</head>
 
 	<main>
