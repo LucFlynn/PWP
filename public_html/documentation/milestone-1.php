@@ -1,8 +1,9 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="utf-8"/>
-		<title>Persona</title>
+		<title>milestone</title>
+        <link href="css/style.css" type="text/css" />
 	</head>
 
 	<main>
@@ -15,6 +16,18 @@
 		<p> <strong>Attitudes and Behaviors</strong> <br> Does what needs to be done regardless of how she feels...but she is more unhappy and unsatisfied than not. She has lots of plans for the future but hasn't made a ton of progress on any of them. SHe just gets up and goes to work even thought she wishes she could get up and live her life. She enjoys working hard but doesn't want her job to feel like a job. She hates the term 'work life balance' because she wants them to literally be one in the same. No balance. Life is work and work is life. Before this however, she needs work she is actually in love with. </p>
 		<p> <strong>Frustrations and Needs</strong> <br> She is frustrated at where her life is. Like most milinials she thought she'd be a milionaire by now. She needs the constant motivation of social media to keep her performing at a high level throughout the day.  </p>
 		<p> <strong>Goals</strong> <br>  </p>
+
+        <p> Emily, like the vast majority of her contemporaries checks her phone constantly. She loves instagram and twitter and checks them multiple times throughout the day to catch up on her favorite content providers. Anytimes she takes a break she pulls out her phones, checks text messages on her phone then flips over to instagram and twitter. She likes to see people who are accomplishing goals, and working hard for what they want. This motivates her to keep working on her life to achieve her dreams. She would use my profile as a gateway to my instagram and twitter so she could follow me and I could become one of her favorite content creators.  </p>
+
+        <h2> Interaction Flow</h2>
+        <ol>
+            <li> Emily will find me on google/li>
+            <li> PWP opens to her from goodle</li>
+            <li> Emily will be dazzled by my cool pictures and life, become curious to find out more.</li>
+            <li> Emily will scroll up and down on my page, eventually clicking on the link to my instagram page. </li>
+        </ol>
+        </body>
+</html>
 
 	</body>
 </html>

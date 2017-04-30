@@ -5,7 +5,7 @@
 		<title>Persona</title>
 	</head>
 
-	<h1> Milestone-1 PWP</h1>
+	<h1> Milestone-1 PWP-Luc Flynn</h1>
 
 	<main>
 		<h2>Persona</h2>
@@ -16,7 +16,7 @@
 		<p> <strong>Technology</strong> <br> Like most people her age she uses an iphone. Nobody around her really uses android or anything else. She shells out 1,000 every 2 or 3 years for the new latest model. She mainly uses her phone to text her friends, follow people on social media such as instagram, snapchat and facebook. She posts infrequently but when cool stuff happens she posts. She comments much more and likes more than she posts. She has a macbook air, but doesn't use it for much more than netflix, hulu, and pintrest.  </p>
 		<p> <strong>Attitudes and Behaviors</strong> <br> Does what needs to be done regardless of how she feels...but she is more unhappy and unsatisfied than not. She has lots of plans for the future but hasn't made a ton of progress on any of them. SHe just gets up and goes to work even thought she wishes she could get up and live her life. She enjoys working hard but doesn't want her job to feel like a job. She hates the term 'work life balance' because she wants them to literally be one in the same. No balance. Life is work and work is life. Before this however, she needs work she is actually in love with. </p>
 		<p> <strong>Frustrations and Needs</strong> <br> She is frustrated at where her life is. Like most milinials she thought she'd be a milionaire by now. She needs the constant motivation of social media to keep her performing at a high level throughout the day.  </p>
-		<p> <strong>Goals</strong> <br>  </p>
+		
 
 		<h2>Use Case</h2>
 
