@@ -15,7 +15,7 @@
 		<h1>Luc Flynn-Milestone 1</h1>
 	</main>
 	<body>
-    <div class ="containter"   > 
+    <div class ="container"   >
         <div class ="persona">
         <h2>Persona</h2>
         <div class ="emily">
