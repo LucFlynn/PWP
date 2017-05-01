@@ -1,4 +1,8 @@
 <!DOCTYPE html>
+
+          <!-- PWP layout
+            -- Author Luc Flynn -->
+
 <html>
 	<head>
 		<meta charset="utf-8"/>
@@ -8,11 +12,11 @@
 	</head>
 
 	<main>
-		<h1>Milestone 1</h1>
+		<h1>Luc Flynn-Milestone 1</h1>
 	</main>
 	<body>
     <div class ="containter"   > 
-    <div class ="persona">
+        <div class ="persona">
         <h2>Persona</h2>
         <div class ="emily">
         <img src="css/emily.jpeg">      </div>
@@ -36,9 +40,10 @@
             <li> Emily will scroll up and down on my page, eventually clicking on the link to my instagram page. </li>
         </ol>
                 </div>
-        </div>  
+            </div>
+        </div>
         </body>
-              </div>
+
 </html>
 
 

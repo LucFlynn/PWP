@@ -6,8 +6,8 @@ h1{
     color: dimgrey;
     background-color: black;
     text-align: center;
-    border: 3px darkred double;
-    padding: 1em;
+    border: 3px darkred dotted;
+    padding: 3em;
 
 }
 
@@ -35,4 +35,3 @@ h1{
     border: 3px darkred dotted;
     padding: 3em;
 }
-
