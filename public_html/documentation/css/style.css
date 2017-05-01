@@ -1,7 +1,38 @@
+.container{
+    background-color: black;
+}
+
 h1{
-    color: blue;
+    color: dimgrey;
+    background-color: black;
+    text-align: center;
+    border: 3px darkred double;
+    padding: 1em;
+
 }
 
 .persona{
-    color: orangered;
+    text-align: center;
+    float: left;
+    color: firebrick;
+    border: 3px darkred dotted;
+    padding: 1em;
+    width: 800px;
+    background: darkgrey;
 }
+
+.emily {
+    height: 20%;
+    float: right;
+    border: 3px;
+}
+.use-case {
+    float: right;
+    width: 300px;
+    display: block;
+    color: grey;
+    background-color: black;
+    border: 3px darkred dotted;
+    padding: 3em;
+}
+
