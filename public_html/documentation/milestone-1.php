@@ -12,10 +12,17 @@
 	</head>
 
 	<main>
-		<h1>Luc Flynn-Milestone 1</h1>
+        <h1>Luc Flynn</h1>
+            <em>Milestone 1</em>
 	</main>
 	<body>
-    <div class ="container"   >
+    <div class ="follow">
+        <img src="css/follow.jpeg">
+        <div class ="PAG" >
+        <p> <strong>Purpose:</strong> <br> To drive people, employers, clients, fans, to my social media sites so I can gain followers.</p>
+        <p> <strong>Audience:</strong> <br> Will be fans of motivational social media accounts, clients/employers looking to create large social media followings.</p>
+        <p> <strong>Goal:</strong> <br> To intice people to follow me, and send me inquires about creating similar frameworks for their business. Explicitly I want messages like "I saw your website and had to follow/send you a message."</p>
+        </div>
         <div class ="persona">
         <h2>Persona</h2>
         <div class ="emily">
@@ -29,7 +36,7 @@
 
     <div class ="use-case">
         <h2> Use Case </h2>
-        <p> Emily, like the vast majority of her contemporaries checks her phone constantly. She loves instagram and twitter and checks them multiple times throughout the day to catch up on her favorite content providers. Anytime she takes a break she pulls out her phones, checks text messages on her phone then flips over to Instagram and twitter. She likes to see people who are accomplishing goals, and working hard for what they want. This motivates her to keep working on her life to achieve her dreams. She would use my profile as a gateway to my instagram and twitter so she could follow me and I could become one of her favorite content creators.  </p>
+        <p> Emily, like the vast majority of her contemporaries checks her phone constantly. She loves instagram and twitter and checks them multiple times throughout the day to catch up on her favorite content providers. Anytime she takes a break she pulls out her phone, checks text messages, then flips over to Instagram and twitter. She likes to see people who are accomplishing goals, and working hard for what they want. This motivates her to keep working on her life to achieve her dreams. She would use my profile as a gateway to my instagram and twitter so she could follow me and I could become one of her favorite content creators.  </p>
 
             <div class="interaction">
         <h2> Interaction Flow</h2>

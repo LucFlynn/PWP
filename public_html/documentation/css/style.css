@@ -1,15 +1,72 @@
-.container{
+
+
+main{
+    color: dimgrey;
     background-color: black;
+    margin-right: -400px;
+    text-align: center;
+    border: 3px darkred dotted;
+    padding: 1em;
+    width: 800px;
+    height: 80px;
 }
 
 h1{
-    color: dimgrey;
-    background-color: black;
+    float: left;
+}
+em{
+    float: left;
+    text-align: justify;
+    padding-top: 6%;
+}
+
+.follow {
+    height: 20%;
+}
+
+
+.PAG{
+    color: firebrick;
     text-align: center;
-    border: 3px darkred dotted;
-    padding: 3em;
+    float: right;
 
 }
+
+/* I'm killing this code for now but want to keep it for future reference
+*
+*
+* purpose
+.PAG > p:nth-child(1){
+    background-color: black;
+    float: left;
+    border: 1px darkred dotted;
+    padding: 1em;
+    width: 300px;
+    height: 115px;
+}
+
+* audience
+.PAG > p:nth-child(2){
+    background-color: black;
+    float: inherit;
+    border: 1px darkred dotted;
+    padding: 1em;
+    height: 115px;
+    width: 400px;
+}
+
+/* goal
+.PAG > p:nth-child(3){
+    background-color: black;
+    float: right;
+    border: 1px darkred dotted;
+    padding: 2em;
+    width: 400px;
+    height: 90px;
+    margin: 10px;
+
+}
+*/
 
 .persona{
     text-align: center;
@@ -28,6 +85,7 @@ h1{
 }
 .use-case {
     float: right;
+    height: 607px;
     width: 300px;
     display: block;
     color: grey;
