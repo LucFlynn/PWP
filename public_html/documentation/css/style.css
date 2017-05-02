@@ -20,17 +20,16 @@ em{
     padding-top: 6%;
 }
 
-.follow {
-    height: 20%;
-}
+
 
 
 .PAG{
     color: firebrick;
     text-align: center;
     float: right;
-
+    width: 29%;
 }
+
 
 /* I'm killing this code for now but want to keep it for future reference
 *

@@ -16,9 +16,11 @@
             <em>Milestone 1</em>
 	</main>
 	<body>
-    <div class ="follow">
-        <img src="css/follow.jpeg">
+
         <div class ="PAG" >
+            <div class ="goal">
+                <img src="css/goal.jpeg">
+            </div>
         <p> <strong>Purpose:</strong> <br> To drive people, employers, clients, fans, to my social media sites so I can gain followers.</p>
         <p> <strong>Audience:</strong> <br> Will be fans of motivational social media accounts, clients/employers looking to create large social media followings.</p>
         <p> <strong>Goal:</strong> <br> To intice people to follow me, and send me inquires about creating similar frameworks for their business. Explicitly I want messages like "I saw your website and had to follow/send you a message."</p>
