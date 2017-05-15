@@ -1,20 +1,23 @@
+.contents{
+    padding-right: 24em;
+    padding-left: 7em;
+}
+
 body{
+    padding-left: 20em;
     alignment: center;
-    margin-left: 15em;
     background-color: black;
 }
 
 main{
     color: dimgrey;
     background-color: black;
-    margin-right: 4em;
-    margin-left: 3em;
+    margin: 0 4em 2em -14em ;
     text-align: center;
-    margin-bottom: 2em;
     border: 3px darkred dotted;
     padding: 1em;
-    width: 700px;
-    height: 80px;
+    width: 22em;
+    height: 5em;
 }
 
 h1{
@@ -23,83 +26,35 @@ h1{
 em{
     float: left;
     text-align: justify;
-    padding-top: 6%;
+    padding-top: 16%;
 }
 
-.PAG{
-    background-color: grey;
-    color: firebrick;
-    text-align: center;
-    border: 3px dotted;
-    padding: 2rem;
-    height: 350px;
-    margin-right: 12em;
-
-}
-.goal{
-    margin-right: 1em;
+.section_one{
     float: left;
-
-}
-.persona{
-    text-align: center;
-    margin-top: 2em;
     color: firebrick;
-    border: 3px darkred dotted;
-    padding: 1em;
-    width: 800px;
-    background: darkgrey;
 }
 
-.emily {
-    height: 20%;
+.section_two {
+    color: firebrick;
+}
+
+img [src="css/abq.jpeg"]{
+
+    width: 5em;
+    padding-left: 40em;
+
+}
+
+img[src="css/bikenCoffee.jpeg"]{
+    width: 15em;
     float: right;
-    border: 3px;
-}
-.use-case {
-    display: block;
-    color: grey;
-    background-color: black;
-    margin-top: 2em;
-    border: 3px darkred dotted;
-    padding: 3em;
-    width: 735px;
 }
 
 
-
-/* I'm killing this code for now but want to keep it for future reference
-*
-*
-* purpose
-.PAG > p:nth-child(1){
-    background-color: black;
-    float: left;
-    border: 1px darkred dotted;
-    padding: 1em;
-    width: 300px;
-    height: 115px;
+img[src="css/goal.jpeg"]{
+    width: 18em;
 }
 
-* audience
-.PAG > p:nth-child(2){
-    background-color: black;
-    float: inherit;
-    border: 1px darkred dotted;
-    padding: 1em;
-    height: 115px;
-    width: 400px;
+img[src="css/emily.jpeg"]{
+    width: 5em;
 }
-
-/* goal
-.PAG > p:nth-child(3){
-    background-color: black;
-    float: right;
-    border: 1px darkred dotted;
-    padding: 2em;
-    width: 400px;
-    height: 90px;
-    margin: 10px;
-
-}
-*/

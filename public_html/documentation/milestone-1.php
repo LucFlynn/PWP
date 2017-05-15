@@ -6,7 +6,7 @@
 <html>
 	<head>
 		<meta charset="utf-8"/>
-        <link type="text/css" href="css/style.css" rel="stylesheet" />
+        <!--<link type="text/css" href="css/style.css" rel="stylesheet" /> -->
 		<title>milestone 1</title>
 
 	</head>

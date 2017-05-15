@@ -12,26 +12,33 @@
 
 <main>
     <h1>Luc Flynn</h1>
-    <em> Welcome to my personal website</em>
 </main>
 
-<body>
-    <h2> About me </h2>
+    <div class="contents" >
+    <div class="section_one" >
+        <p> Aug 2009: Headed to university at New Mexico state</p>
+        <p> Aug 2012: Foreign exchange at Lyon 3 in Lyon, France. Learned a lot about international politics, business, and French. Oui, Je puex parle fracais.</p>
+        <p> June 2013: Came home from France (sad face) and hustled taking 21 credits in a semester to graduate in Dec 2013.</p>
+        <p> Dec 2013: Immidiatly realized I wanted more education, was scared of the intellectual death I percieved as working for a company. Should've known what that meant right there.</p>
+        <p> Jan 2014 I walked into Central New Mexico Community College and Decided to Pursue Engineering</p>
+        <p> Sept 2016: Decided that's enough university. It wasn't serving me and I realized I needed to try my hand at business ship or else my soul would die. </p>
+        <p> Sept 2016: Started my first eCommerce buisiness with a buddy and $40</p>
+        <p> Jan 2017: The eCommerce buisness is grossing $1,000 a month. </p>
+    </div>
+
+    <div class="bike" >
+        <img src="css/bikenCoffee.jpeg">
+    </div>
+    <body>
 
     <div class ="goal">
         <img src="css/goal.jpeg">
     </div>
-        <p> Fanny pack 8-bit thundercats, pinterest single-origin coffee ennui squid deep v flannel. Occupy lo-fi pabst, tacos tote bag kombucha cred hammock typewriter iceland succulents roof party man braid authentic scenester. Austin cronut actually typewriter, live-edge trust fund waistcoat mlkshk lomo small batch. Hot chicken salvia flannel, raw denim truffaut dreamcatcher hell of tumeric fanny pack trust fund cronut vice. Tote bag kickstarter meggings, activated charcoal thundercats raw denim lumbersexual austin heirloom mixtape knausgaard hexagon keytar bushwick. Occupy williamsburg cred coloring book crucifix marfa yr. Iceland fam poke, seitan intelligentsia actually subway tile ugh activated charcoal sustainable.
 
-            Fixie banjo etsy, brooklyn health goth squid meh vaporware marfa drinking vinegar chartreuse jean shorts lomo leggings helvetica. Coloring book listicle wolf, plaid hexagon mlkshk sustainable mustache tattooed gentrify small batch yr cred farm-to-table. Venmo pok pok craft beer, flannel edison bulb dreamcatcher tousled bicycle rights. Jean shorts flexitarian viral, vegan DIY narwhal lyft jianbing typewriter stumptown cliche truffaut. Meh deep v cornhole vape lo-fi semiotics. Tattooed synth pabst kinfolk snackwave, hella schlitz raclette kale chips fanny pack neutra. Drinking vinegar air plant kickstarter meh ramps.</p>_
 
-            <p> Cornhole wayfarers sriracha edison bulb slow-carb gastropub live-edge farm-to-table subway tile banh mi drinking vinegar, snackwave roof party brunch. Mumblecore tote bag 8-bit pinterest taxidermy, quinoa mixtape poke chartreuse. Etsy four loko literally cornhole, tacos wolf farm-to-table actually banh mi subway tile lo-fi kombucha vice cliche single-origin coffee. Hashtag williamsburg fingerstache pickled poutine hexagon hoodie leggings meh snackwave skateboard, iPhone taxidermy truffaut. Kickstarter raw denim activated charcoal, direct trade heirloom taxidermy whatever +1 la croix ramps woke. Umami lyft direct trade fap shabby chic, ugh farm-to-table godard bicycle rights beard. Kogi iPhone beard pop-up chia.
-
-            Succulents etsy marfa tousled, trust fund before they sold out edison bulb hoodie enamel pin live-edge hot chicken. Aesthetic post-ironic hexagon, PBR&B thundercats viral godard fingerstache irony tofu succulents ethical hell of pok pok. Portland flannel sustainable, forage iPhone woke banh mi hexagon schlitz bespoke. Brunch poutine flannel fashion axe. Actually thundercats quinoa, twee chia locavore glossier tumeric hot chicken. Unicorn everyday carry austin cornhole. Helvetica pabst flannel, readymade chicharrones heirloom unicorn schlitz.
-            Oh. You need a little dummy text for your mockup? How quaint.
-
-            I bet you’re still using Bootstrap too… </p>
-</body>
+        </div>
+        </body>
+    </div>
 
 
 </html>
