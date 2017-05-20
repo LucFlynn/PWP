@@ -26,14 +26,6 @@
         <p> Jan 2017: The eCommerce buisness is grossing $1,000 a month. </p>
     </div>
 
-    <div class="bike" >
-        <img src="css/bikenCoffee.jpeg">
-    </div>
-    <body>
-
-    <div class ="goal">
-        <img src="css/goal.jpeg">
-    </div>
 
 
         </div>

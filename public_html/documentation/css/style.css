@@ -1,10 +1,7 @@
-.contents{
-    padding-right: 24em;
-    padding-left: 7em;
-}
+
 
 body{
-    padding-left: 20em;
+
     alignment: center;
     background-color: black;
 }
@@ -12,7 +9,7 @@ body{
 main{
     color: dimgrey;
     background-color: black;
-    margin: 0 4em 2em -14em ;
+
     text-align: center;
     border: 3px darkred dotted;
     padding: 1em;
@@ -23,27 +20,15 @@ main{
 h1{
     float: left;
 }
-em{
-    float: left;
-    text-align: justify;
-    padding-top: 16%;
-}
+
 
 .section_one{
     float: left;
     color: firebrick;
+    padding-right: 35em;
 }
 
-.section_two {
-    color: firebrick;
-}
 
-img [src="css/abq.jpeg"]{
-
-    width: 5em;
-    padding-left: 40em;
-
-}
 
 img[src="css/bikenCoffee.jpeg"]{
     width: 15em;
@@ -53,8 +38,5 @@ img[src="css/bikenCoffee.jpeg"]{
 
 img[src="css/goal.jpeg"]{
     width: 18em;
-}
-
-img[src="css/emily.jpeg"]{
-    width: 5em;
+    float: left;
 }
