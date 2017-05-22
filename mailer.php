@@ -3,7 +3,7 @@
 /** require all composer dependencies; requiring the  autoload file loads all composer packages at once while this is convenient, this may load too much if your composer configuration grows to many classes if this is a concern, laod "/vendor/swiftmailer/autolaod.php" instead to load just SwiftMailer
  **/
 
-require_once(dirname(__DIR__, 2) . "/vendor/autoload.php");
+require_once(dirname(__DIR__, 4) . "/vendor/autoload.php");
 
 
 /**

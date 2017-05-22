@@ -8,6 +8,7 @@
     <meta charset="utf-8"/>
     <link type="text/css" href="public_html/documentation/css/style.css" rel="stylesheet" />
     <title> Luc Flynn </title>
+    <link type="js" href="validator.js" />
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 
@@ -48,7 +49,7 @@
 
 <!-- Begin contact form -->
 
-    <form id="contact-form" action="php/mailer.php" method="post">
+    <form id="contact-form" action="mailer.php" method="post">
         <div class="form-group">
             <label for="name">Name <span class="text-danger">*</span></label>
             <div class="input-group">
