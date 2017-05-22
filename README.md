@@ -51,4 +51,22 @@ Please see [Sample PWP Milestones](https://bootcamp-coders.cnm.edu/projects/pers
 - Please update wireframes for clarity and consistency. I strongly recommend using a wireframing tool such as [wireframe.cc](https://wireframe.cc/) or [balsamiq](https://balsamiq.com/). 
 - Always use the `alt` attribute on `<img>` tags.
 
+### Updated Feedback 5/22
+The content strategy is much better. Still your HTML structure is way off - both your `<head>` and `<body>` elements are missing. It may seem like a small thing, but it's really fundamental. 
+
+It looks like the dropdown menu links are radio buttons - I suggest just making them regular links instead of a form input field.
+
+I suggest thinking about how you'd like to display and format your rants in a little more detail. This can affect your HTML structure, and what Bootstrap components you might want to use. Same thing with your Portfolio items. Have a look at the Bootstrap Thumbnail component. Also, on mobile view the thumbnails might be nice 2 by 2... I think you'll have enough horizontal space to accommodate that.
+
+Your contact form will need to have more fields that just the text box. You'll want a name or email field at the very least, a submit button, and there will also be a Google reCAPTCHA field.
+
+I think you have a decent start, but a little more detail in the wireframes would go a long way to help you with a better guide for your development. 
+
+Thanks for making the requested changes to your Milestone. Your Milestone 2&alpha; now passes at [Tier II](https://bootcamp-coders.cnm.edu/projects/personal/rubric/). You're clear to begin development on your PWP. 
+
+### Take note of the following:
+- **Build your layout and files directly inside the `/public_html` directory.** I see you have some files outside of the proper directory structure. 
+- You should only have one **index.php** file, and all your page sections built on that one page - PWP is not a multi-page site. 
+- **mail-config.php** needs to be in your `.gitignore` file - THIS IS VERY IMPORTANT. You do not want the sensitive data this file contains publicly available on GitHub! See [PWP Contact Form Instructions](https://bootcamp-coders.cnm.edu/class-materials/jquery-validated-captcha-form/) - I will be demo'ing this in class in the next week or so. 
+- Move your **validator.js** file into a `/js` directory INSIDE `/public_html`. Again, all project files that are front-end accessible should be inside the /public_html directory.
 
