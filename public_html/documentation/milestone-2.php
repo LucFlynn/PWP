@@ -2,13 +2,16 @@
 <html>
 
 
-
+ <head>
     <h1> Content Strategy</h1>
+ </head>
+ 
+ <body>
         My site will be multiple pages, and will consist of the following sections:
 
         Welcome: A brief one-line introduction that clearly states my name and role as a Developer. This welcome message will be at the top. I will have a picture of me on the right side.
 
-        Timeline: This section will detail my professional history, core skill set, and professional highlights. This section will showcase my strengths and personality. The tone of voice will be personable and casual, so give a better idea of my personality.
+        Time line: This section will detail my professional history, core skill set, and professional highlights. This section will showcase my strengths and personality. The tone of voice will be personable and casual, so give a better idea of my personality.
 
         Portfolio: I will not feature a portfolio on my MVP. Eventually I will have links to other pages that will contain content such as blogs and pictures and a podcast. I will probably start with some generic plug ins to update these things. Something from wordpress or square space to start out with.
 
@@ -19,5 +22,7 @@
     <img src="css/webview.png" alt="wireframe">
 
     <img src="css/mobileview.png" alt="mobileview">
+
+ </body>
 
 </html>

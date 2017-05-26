@@ -13,8 +13,8 @@
 
 
 // Google reCaptcha keys here
-$siteKey = '-- reCaptcha SITE KEY --';
-$secrete = '-- reCaptcha SECRETE KEY --';
+$siteKey = '6LfAWyIUAAAAAOFXxCMf2U-Y6KX64cVXjP_k6KJ-';
+$secret = '6LfAWyIUAAAAALuemENx6OzBZMGJVkU_v1jSNatX';
 
 /**
  * attach the recipients to the message
@@ -22,4 +22,4 @@ $secrete = '-- reCaptcha SECRETE KEY --';
  * use the recipients' real name where possible; this reduces the probability of the Email being marked as spam
  **/
 
-$MAIL_RECIPIENTS = ["mail@email.com" => "Recipient Name"];
+$MAIL_RECIPIENTS = ["lucnmsu@gmail.com" => "Luc Flynn"];

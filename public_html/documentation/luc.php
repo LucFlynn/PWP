@@ -6,9 +6,9 @@
 <html xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="utf-8"/>
-    <link type="text/css" href="public_html/documentation/css/style.css" rel="stylesheet" />
+    <link type="text/css" href="css/style.css" rel="stylesheet" />
     <title> Luc Flynn </title>
-    <link type="js" href="validator.js" />
+    <link type="js" href="../javascript/validator.js" />
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 
@@ -87,8 +87,8 @@
             </div>
         </div>
         
-        <--! reCAPTCHA -->
-        <div class="g-recapthca" data-sitekey="-- YOUR RECAPTCHA SITE KEY --"></div>
+        <!-- reCAPTCHA -->
+        <div class="g-recapthca" data-sitekey="6LfAWyIUAAAAAOFXxCMf2U-Y6KX64cVXjP_k6KJ-"></div>
         
         <button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
         <button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
