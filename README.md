@@ -70,3 +70,5 @@ Thanks for making the requested changes to your Milestone. Your Milestone 2&alph
 - **mail-config.php** needs to be in your `.gitignore` file - THIS IS VERY IMPORTANT. You do not want the sensitive data this file contains publicly available on GitHub! See [PWP Contact Form Instructions](https://bootcamp-coders.cnm.edu/class-materials/jquery-validated-captcha-form/) - I will be demo'ing this in class in the next week or so. 
 - Move your **form-validate.js** file into a `/js` directory INSIDE `/public_html`. Again, all project files that are front-end accessible should be inside the /public_html directory.
 
+## Milestone 2b Feedback
+Make fixes detailed in feedback left on Slack. Milestone 2&beta; passes at [Tier II](https://bootcamp-coders.cnm.edu/projects/personal/rubric/).
