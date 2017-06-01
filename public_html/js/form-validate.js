@@ -6,14 +6,15 @@ $(document).ready(function(){
         // setup handling of form errors
         debug: true,
         errorClass: "alert alert-danger",
-        errorLabelContainer: "output-area",
+        errorLabelContainer: "#output-area",
         errorElement: "div",
 
         // rules define what is good/bad input
         // each rule starts with the form input element's NAME attribute
         rules: {
             name: {
-                required: true
+                required: true,
+                maxlength: 45
             },
             email: {
                 email: true,
@@ -21,20 +22,24 @@ $(document).ready(function(){
             },
             message: {
                 required: true,
-                maxlength: 2000
+                minlength: 2,
+                maxlength: 10
             }
         },
-        //error message to display to the end user
+
+        // error messages to display to the end user
         messages: {
             name: {
-                required: "Please enter your name."
+                required: "Y U have no name?!",
+                maxlength: "Yr name be too long."
             },
             email: {
                 email: "Please enter a valid email address.",
-                required: "please enter a valid email address."
+                required: "Please enter a valid email address."
             },
             message: {
-                required: "please enter a message.",
+                required: "Please enter a message.",
+                minlength: "Y u no say something?",
                 maxlength: "2000 characters max."
             }
         },
@@ -45,7 +50,7 @@ $(document).ready(function(){
                 url: $("#contact-form").attr("action"),
 
                 success: function(ajaxOutput) {
-                    //clear the output ares's formatting
+                    // clear the output area's formatting
                     $("#output-area").css("display", "");
 
                     // write the server's reply to the output area
@@ -58,5 +63,7 @@ $(document).ready(function(){
                 }
             })
         }
-    });  /* end validate function */
-}); /*end document.read()*/
+
+    });/* end validate function */
+
+});/*end document.ready()*/

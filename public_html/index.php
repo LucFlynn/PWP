@@ -17,14 +17,18 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/jquery.validate.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/additional-methods.min.js"></script>
 
+    
+    
+    <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css">
+
     <link rel="stylesheet"  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
     <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" crossorigin="anonymous";>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" crossorigin="anonymous">
 
     <!-- HTML5 shiv and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!-- [if lt IE9]>
+    <!-- [if lt IE9]-->
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
@@ -44,6 +48,8 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.1/jquery.form.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/jquery.validate.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/additional-methods.min.js"></script>
+    
+    
 
 
     <!-- Latest compiled and minified JavaScript -->
@@ -91,7 +97,7 @@
         <!-- beging main page content -->
         <main>
         
-        <div class="containter">
+        <div class="container">
             
             <!--Beging welcome row -->
                 <div class="row0">
@@ -116,6 +122,7 @@
                 <div class="col-md-6">
                     <div class="content-box">
                         <h3> flexbox whatever</h3>
+                        <p> More words </p>
                     </div>
                 </div>
             </div>
@@ -150,7 +157,7 @@
                 <div class="col-md-3">
                     <div class="content-box">
                         <h3> view source</h3>
-                        <p> this is a lotta boostrap, </p>
+                        <p> this is a lotta bootstrap, </p>
                     </div>
                 </div>
             </div>
@@ -219,8 +226,7 @@
     </div>
 </div>
     </div>
-
-    </div>  <!-- sfooter-content-->
+ <!-- sfooter-content-->
     <footer>
         <div class="container">
             &copy; 2017 Luc Flynn
@@ -228,5 +234,7 @@
     </footer>
 
 
+  
+    
     </body>
 </html>
