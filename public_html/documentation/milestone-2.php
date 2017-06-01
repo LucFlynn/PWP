@@ -19,9 +19,9 @@
 
         All the content will be created by me to showcase my life. The goal is to overwhelm people with the amount of work I do on a daily basis by literally showing them. My website will be a hub for the various parts of my life but will allow for people who find me on oen platform, to reach my website, and then find my other platforms.
 
-    <img src="../css/webview.png" alt="wireframe">
+    <img src="../css/images/webview.png" alt="wireframe">
 
-    <img src="../css/mobileview.png" alt="mobileview">
+    <img src="../css/images/mobileview.png" alt="mobileview">
 
  </body>
 

@@ -1,47 +1,65 @@
+body {
+    width: 80%;
 
-
-body{
-    background:black url(abq.jpeg) fixed no-repeat;
-
+    background-color: darkgrey;
+}
+header {
+    margin-top: 20px;
 }
 
-.navbar-brand {
-    width: 60px;
-    height: 30px;
-    align: left;
+footer {
+    background-color: #000000;
+    color: #cccccc;
+    font-style: italic;
+    margin-top: 40px;
+    padding: 60px 0;
 }
 
-.container-fluid {
-    background-color: lightgray;
-}
-
-.jumbotron{
-    color: dimgrey;
-    background-color: black;
+.jumbotron {
     text-align: center;
-    border: 3px darkred dotted;
-    width: 23em;
-}
-
-
-
-
-.section_one{
-    float: left;
-    color: maroon;
-    border: .25em dotted darkred;
     background-color: black;
-    display: inline-block;
-    margin-left: 30em;
-    margin-bottom: 3em;
+    color: aliceblue;
 }
 
-
-
-.gallery {
-    margin: 7em;
+.contact {
+    width: 30em;
+    margin-left: 35em;
+    
 }
 
-.form-group {
-    margin-right: 29em;
+.rowA, .rowB {
+    background-color: black;
+    color: aliceblue;
+}
+
+/********************************************
+* Utility Styles
+*
+* These are intended to be re-used
+* for styling purposes
+********************************************/
+.content-box {
+    background-color: #cccccc;
+    border-radius: 6px;
+    padding: 10px 15px 15px;
+    margin-bottom: 20px;
+}
+
+/***
+* Flexbox Sticky Footer
+* http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
+***/
+
+/*corrects IE min-height bug*/
+html { display: flex;}
+body { width: 100%;}
+
+.sfooter {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.sfooter-content {
+    flex: 1 0 auto;
 }

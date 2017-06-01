@@ -2,9 +2,11 @@
 
 <!-- PWp Main layout
   -- Author Luc Flynn -->
-
+<html>
 <head>
     <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     
     <title> Luc Flynn </title>
 
@@ -54,69 +56,117 @@
     <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 
-    <body>
+    <body class="sfooter">
 
-    <!--Navigation-->
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-               
-                <p class="navbar-text">Welcome to my wonderful delusions</p>
-            </div>
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a> </li>
-                    <li><a href="#">About</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Destinations <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#section_one">Story</a> </li>
-                            <li><a href="#">Philosophy</a> </li>
-                            <li><a href="#">Other team members</a> </li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <header>
-        <div class="jumbotron">
-            <h1>I am Luc Flynn!</h1>
-        </div>
-    </header>
     
-
-
-    <div class="contents" >
-        <div class="section_one" >
-            <p> Aug 2009: Headed to university at New Mexico state</p>
-            <p> Aug 2012: Foreign exchange at Lyon 3 in Lyon, France. Learned a lot about international politics, business, and French. Oui, Je puex parle fracais.</p>
-            <p> June 2013: Came home from France (sad face) and hustled taking 21 credits in a semester to graduate in Dec 2013.</p>
-            <p> Dec 2013: Immidiatly realized I wanted more education, was scared of the intellectual death I percieved as working for a company. Should've known what that meant right there.</p>
-            <p> Jan 2014 I walked into Central New Mexico Community College and Decided to Pursue Engineering</p>
-            <p> Sept 2016: Decided that's enough university. It wasn't serving me and I realized I needed to try my hand at business ship or else my soul would die. </p>
-            <p> Sept 2016: Started my first eCommerce buisiness with a buddy and $40</p>
-            <p> Jan 2017: The eCommerce buisness is grossing $1,000 a month. </p>
-        </div>
-    </div>
-    </body>
-                    <div class="gallery">
-                    <img src="css/emily.jpeg" alt = "girl">
-                <img src="css/bikenCoffee.jpeg" alt = "bike and coffee">
-            <img src="css/goal.jpeg" alt = "computer">
+    <div class="sfooter content">
+        <!--Navigation-->
+        <header>
+            <div class="container">
+                <nav class="navbar navbar-inverse">
+                    <!-- brand and toggle get grouped for better mobile -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-taget="#b-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">Boostrap wirefram challenge</a>
                     </div>
+                    
+                    <!-- collect the nav links, forms and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#">Gallery</a></li>
+                            <li><a href="#">Quora </a></li>
+                            <li><a href="#">Hello World</a></li>
+                            <li><a href="https://https://bootcamp-coders.cnm.edu/~lflynn7/pwp/public_html/index.php" target="_blank">StackOverflow</a> </li>
+                        </ul>
+                    </div>    <!--.navbar-collapse -->
+                </nav>
+            </div>
+        </header>
+        
+        <!-- beging main page content -->
+        <main>
+        
+        <div class="containter">
+            
+            <!--Beging welcome row -->
+                <div class="row0">
+                    <div class="col-md-12">
+                        <div class="jumbotron">
+                            <h1>Luc Flynn! =^. .^=</h1>
+                            <p> Welcome to Luc Flynns PWP made with bootsrap!</p>
+                            
+                        </div>
+                    </div>
+                    
+                </div>
+            
+            <!-- begin 2 column row -->
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="content-box">
+                        <h3> Potrofilio thingy 1</h3>
+                        <p> This is blah blah</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="content-box">
+                        <h3> flexbox whatever</h3>
+                    </div>
+                </div>
+            </div>
+
+            <!-- begin 4 colo row -->
+            <div class="rowA">
+                <div class="col-md-3">
+                    <div class="content-box">
+                        <h3> Navbar </h3>
+                        <p> This example uses bootsrap built in navbar RTFM here: </p>
+                        
+                    </div>
+                </div>
+                
+                <div class="col-md-3">
+                    <div class="content-box">
+                        <h3>Flexbox sticky footer</h3>
+                        <p> Keep the footer at the bottom of the page, always. even if the content are is "short" This is the finest sticky footer I've ever used. </p>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            
+            <div class="rowB">
+                <div class="col-md-3">
+                    <div class="content-box">
+                        <h3> Jumbotron </h3>
+                        <p> The boostrap jumbotron made with "meowh" big or whatever it is sometimes a hero message</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="content-box">
+                        <h3> view source</h3>
+                        <p> this is a lotta boostrap, </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        </main>
+        
+    
+    
 
 
 
 <!-- Begin contact form -->
 
     <form id="contact-form" action="php/mailer.php" method="post">
+    <div class="contact">
         <div class="form-group">
             <label for="name">Name <span class="text-danger">*</span></label>
             <div class="input-group">
@@ -153,6 +203,7 @@
                 <textarea class="form-control" rows="5" id="message" name="message" placeholder="Message (2000 characters max)"> </textarea>
             </div>
         </div>
+    
         
         <!-- reCAPTCHA -->
         <div class="g-recaptcha" data-sitekey="6LfAWyIUAAAAAOFXxCMf2U-Y6KX64cVXjP_k6KJ-"></div>
@@ -167,6 +218,15 @@
         <div id="output-area"></div>
     </div>
 </div>
+    </div>
+
+    </div>  <!-- sfooter-content-->
+    <footer>
+        <div class="container">
+            &copy; 2017 Luc Flynn
+        </div>
+    </footer>
 
 
+    </body>
 </html>
