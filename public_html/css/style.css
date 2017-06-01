@@ -1,0 +1,47 @@
+
+
+body{
+    background:black url(abq.jpeg) fixed no-repeat;
+
+}
+
+.navbar-brand {
+    width: 60px;
+    height: 30px;
+    align: left;
+}
+
+.container-fluid {
+    background-color: lightgray;
+}
+
+.jumbotron{
+    color: dimgrey;
+    background-color: black;
+    text-align: center;
+    border: 3px darkred dotted;
+    width: 23em;
+}
+
+
+
+
+.section_one{
+    float: left;
+    color: maroon;
+    border: .25em dotted darkred;
+    background-color: black;
+    display: inline-block;
+    margin-left: 30em;
+    margin-bottom: 3em;
+}
+
+
+
+.gallery {
+    margin: 7em;
+}
+
+.form-group {
+    margin-right: 29em;
+}

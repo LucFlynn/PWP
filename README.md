@@ -68,5 +68,5 @@ Thanks for making the requested changes to your Milestone. Your Milestone 2&alph
 - **Build your layout and files directly inside the `/public_html` directory.** I see you have some files outside of the proper directory structure. 
 - You should only have one **index.php** file, and all your page sections built on that one page - PWP is not a multi-page site. 
 - **mail-config.php** needs to be in your `.gitignore` file - THIS IS VERY IMPORTANT. You do not want the sensitive data this file contains publicly available on GitHub! See [PWP Contact Form Instructions](https://bootcamp-coders.cnm.edu/class-materials/jquery-validated-captcha-form/) - I will be demo'ing this in class in the next week or so. 
-- Move your **validator.js** file into a `/js` directory INSIDE `/public_html`. Again, all project files that are front-end accessible should be inside the /public_html directory.
+- Move your **form-validate.js** file into a `/js` directory INSIDE `/public_html`. Again, all project files that are front-end accessible should be inside the /public_html directory.
 

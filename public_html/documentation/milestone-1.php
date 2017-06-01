@@ -17,7 +17,7 @@
 	</main>
 	<body>
     <div class ="goal">
-        <img src="css/goal.jpeg">
+        <img src="../css/goal.jpeg">
     </div>
         <div class ="PAG" >
 
@@ -31,7 +31,7 @@
         <h2>Persona</h2>
 
         <div class ="emily">
-            <img src="css/emily.jpeg">      </div>
+            <img src="../css/emily.jpeg">      </div>
 
             <p> <strong>Name</strong> Emily <br> <strong>Age</strong> 24</p>
             <p> <strong>Profession</strong> <br> She is a manager at Staples, has worked there for 4 years and started out as a cashier then worked her way up. She mainly sits in the back on the computer looking over paperwork and putting out fires. She's sharper than most of her coworkers and employees so most of her job she has largly found ways to automatic or do very efficiently. She is liked well enough by those that matter in her job but she doesn't pout much effort into making great friends with any of them because it's not in her mind that she'll be where she is in another 4 years.  </p>
