@@ -1,7 +1,6 @@
 body {
     width: 80%;
-
-    background-color: darkgrey;
+    background: black fixed center url('images/abq.jpeg') no-repeat;
 }
 header {
     margin-top: 20px;
@@ -17,20 +16,17 @@ footer {
 
 .jumbotron {
     text-align: center;
-    background-color: black;
+    background: fixed grey;
     color: aliceblue;
+    transition: background-color 2s;
+
 }
 
-.contact {
-    width: 30em;
-    
-    
+.jumbotron:hover{
+    color: grey;
+    background-color: white;
 }
 
-.rowA, .rowB {
-    background-color: black;
-    color: aliceblue;
-}
 
 /********************************************
 * Utility Styles
