@@ -72,3 +72,27 @@ Thanks for making the requested changes to your Milestone. Your Milestone 2&alph
 
 ## Milestone 2b Feedback
 Make fixes detailed in feedback left on Slack. Milestone 2&beta; passes at [Tier II](https://bootcamp-coders.cnm.edu/projects/personal/rubric/).
+
+## Milestone 3 / Final PWP Evaluation
+Nice - you've made some great progress since we met for Milestone 2b... nice work getting Bootstrap in and making this page responsive. And congrats on getting the contact form to work - that was probably the biggest challenge of PWP. There are a few minor things to fix on it... but it looks like it sends mail and is wired up successfully. Have a look at the **Edits &amp; Suggestions** section below for details on technical issues and fixes.
+
+You've made a lot of good progress on your Front End skills over the past 9 weeks. Continue to practice the basics of building Front End - it's fundamental to web development and it just gets more complex (and fun) from here.
+
+Your Milestone 3/Final Delivery for PWP passes at [Tier II](https://bootcamp-coders.cnm.edu/projects/personal/rubric/).
+
+Your overall passing grade across all of your PWP Milestones is [22/40 points (55%)](https://bootcamp-coders.cnm.edu/projects/personal/rubric/#sample-score).
+
+- Milestone 1 - 20%: Tier III 30(0.2) = 6
+- Milestone 2a - 20%: Tier II 20(0.2) = 4
+- Milestone 2b - 10%: Tier II 20(0.1) = 2
+- Milestone 3 - 50%: Tier II 20(0.5) = 10
+
+### Edits &amp; Suggestions
+- :scream_cat: Your **mail-config.php** file made it's way onto GitHub! That isn't good because it contains private data! Be super careful before each commit/push... pay attention to that PhpStorm popup window and which files are being tracked by git. Look at that commit/push window and see **which files have checkboxes**. Always uncheck files that shouldn't be included in the commit/push.
+- It looks like you directly copy/pasted the jquery-validate.js code from my demo without updating the rules for YOUR project. I know this because line 10 still has a maxlenth of 10... that was only meant for demonstration of the customization of the rules. You might wanna fix this, because right now - a message can only have a max of 10 characters. But maybe that's not such a bad thing? LOL.
+- You have jQuery loaded twice, along with jQuery Form, Validate and Additional Methods. I'd remove lines 13-18  altogether. After that double check that your dependency links all fall in the correct order.
+- Not sure how your /vendor directory made it onto GitHub... you .gitignore'd it properly. It's not really a problem, but just adds weight to your repository.
+- The links in your navbar need a little tweaking. It's a general good UX practice to open links to external sites in their own tab by using the `target="_blank"` attribute. Put this in for your Insta and GitHub links so they open in a new tab. And you Quora link goes nowhere yet.
+- Some of the custom CSS that you added to line things up on desktop is making things line up funny on mobile. I'd either put those rules in `@media` queries, or reevaluate the necessity of them. Maybe there's a better way using the Bootstrap grid classes.
+- Typo in the **row** class name on line 104.
+- I'd place the block on lines 123-133, and the form in a **row** as well.
